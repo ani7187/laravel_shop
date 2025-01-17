@@ -69,7 +69,7 @@
                                 </tr>
                                 <tr>
                                     <td>IMG</td>
-                                    <td><img src="{{ asset('storage/img/' . $product->preview_img) }}" alt="Product Image">
+                                    <td><img src="{{ $product->preview_img }}" alt="Product Image">
                                     </td>
                                 </tr>
                                 </tbody>
